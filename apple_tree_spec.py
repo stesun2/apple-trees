@@ -1,6 +1,6 @@
 import unittest, itertools
-from apple_tree import *
-from apple import *
+from classes.apple_tree import *
+from classes.apple import *
 
 class ValidateAppleTreeClass(unittest.TestCase):
     """Tests for `apple_tree.py`."""

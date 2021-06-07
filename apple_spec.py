@@ -1,5 +1,5 @@
 import unittest
-from apple import *
+from classes.apple import *
 
 class ValidateAppleClass(unittest.TestCase):
     """Tests for `apple.py`."""

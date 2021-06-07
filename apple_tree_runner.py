@@ -1,6 +1,6 @@
-from apple_tree import AppleTree
+from classes.apple_tree import AppleTree
 
-tree = AppleTree()
+tree = AppleTree(10, 10)
 
 while tree.any_apples() == False:
     tree.age_tree()
